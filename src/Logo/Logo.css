@@ -1,0 +1,59 @@
+.Logo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans';
+}
+
+.Logo svg {
+  display: flex;
+}
+
+.Logo h1 {
+  font-size: 150px;
+  font-weight: 800;
+  color: transparent;
+  /*text-shadow: 0 0 2px #000;*/
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+	background-repeat: no-repeat;
+	background-image: url(layered-peaks-3.png);
+  background-image: "M0,224L26.7,202.7C53.3,181,107,139,160,128C213.3,117,267,139,320,176C373.3,213,427,267,480,288C533.3,309,587,299,640,245.3C693.3,192,747,96,800,96C853.3,96,907,192,960,197.3C1013.3,203,1067,117,1120,106.7C1173.3,96,1227,160,1280,186.7C1333.3,213,1387,203,1413,197.3L1440,192L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z";
+	background-position: 100% 80%;
+	background-size: 100%;
+	
+	-webkit-background-clip: text;
+	/* let's assume that one day it's supported */
+	-moz-background-clip: text;
+	background-clip: text;
+  
+  animation-name: test;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.Logo h1:hover {
+  background-position: 100% 60%;
+}
+
+.Logo h2 {
+  font-size: 20px;
+  font-weight: 200;
+  margin: 0;
+  margin-top: -25px;
+  padding: 0;
+  align-self: flex-end;
+}
+
+@keyframes test {
+  from {background-position: 100% 80%;}
+  to {background-position: 100% 60%;}
+  
+}
+
+

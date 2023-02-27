@@ -1,0 +1,23 @@
+:root {
+  --primary: #478eaf;
+  --primary-light: #a3d7ef;
+  --text-primary: #000000;
+  --text-inverted: #ffffff;
+  --text-light: #808080;
+  --icon-light: #808080;
+  --icon-dark: ;
+  --border-light: #e6e6e6;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ColorMeLight {
+  color: var(--primary-light);
+}

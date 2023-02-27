@@ -1,0 +1,23 @@
+.Nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: 'Open Sans';
+}
+
+.Nav .Wrapper {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Nav .Wrapper input {
+  border: 0;
+  outline: 0;
+  width: calc(100% - 20px);
+}
