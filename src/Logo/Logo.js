@@ -12,7 +12,7 @@ const Logo = () =>
             <path fill="#fff" d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.303,0.158,0.334,0.25,0C0.25,0.327,0.25,1,0.25,1z"/>
           </pattern>
 
-          <text id="text" className="svgtext" y="9rem">
+          <text id="text" className="svgtext" y="150" x="20">
             J. Fjällbark
           </text>
 
