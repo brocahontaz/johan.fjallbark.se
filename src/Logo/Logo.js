@@ -1,4 +1,4 @@
-import './Logo.css'
+import './Logo.css';
 
 const Logo = () =>
   <div className='Logo'>
@@ -40,4 +40,4 @@ const Logo = () =>
     </div>
   </div>
 
-export default Logo
+export default Logo;

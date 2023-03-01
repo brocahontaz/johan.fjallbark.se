@@ -1,5 +1,5 @@
-import './LinkBar.css'
-import Link from './Link'
+import './LinkBar.css';
+import Link from './Link';
 
 const Links = [
   {
@@ -43,4 +43,4 @@ const LinkBar = () =>
     </div>
   </div>
 
-export default LinkBar
+export default LinkBar;

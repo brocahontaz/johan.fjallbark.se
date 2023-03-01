@@ -1,4 +1,4 @@
-import './Nav.css'
+import './Nav.css';
 
 const Nav = () =>
   <div className='Nav'>
@@ -7,4 +7,4 @@ const Nav = () =>
     </div>
   </div>
 
-export default Nav
+export default Nav;
