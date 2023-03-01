@@ -1,0 +1,27 @@
+<pattern id="water" width=".25" height="1.0" patternContentUnits="objectBoundingBox">
+            <path fill="#FFF" d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.303,0.158,0.334,0.25,0C0.25,0.327,0.25,1,0.25,1z"/>
+          </pattern>
+
+          <text id="text" transform="translate(0,150)" fontFamily="'Open Sans'" textAnchor="middle" fontSize="20" fontWeight="800" fill="rebeccapurple">J. Fjällbark</text>
+          <text id="subtext" transform="translate(650,180)" fontFamily="'Open Sans'" fontSize="20px" fontWeight="400">Full-stack DevOps</text>
+
+          <mask id="text-mask">
+            <use x="0" y="0" xlinkHref="#text" opacity="1" fill="#ffffff"/>
+          </mask>
+
+
+
+          <use xlinkHref="#eff" opacity="0.9"/>
+          
+
+          <g id="eff">
+            <use xlinkHref="#text" fill="#a2a3a5"/>
+
+          </g>
+
+
+          <foreignObject height="100%" width="100%">
+            <div class="svgtext">
+              J. Fjällbark
+            </div>
+          </foreignObject>

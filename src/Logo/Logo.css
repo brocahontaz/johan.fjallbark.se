@@ -8,8 +8,12 @@
 }
 
 .Logo .Wrapper {
-  width: 820px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
   height: 200px;
+  box-sizing: border-box;
 }
 
 .Logo .Wrapper svg {
@@ -38,7 +42,7 @@
   75% { fill: green; }
   100% { fill: rebeccapurple; }
 }
-
+/*
 @media screen and (max-width: 840px) {
   .Logo .Wrapper {
     width: 550px;
@@ -49,4 +53,36 @@
     font-size: 100px;
     transform: translate(0, 100px);
   }
+}
+
+@media screen and (max-width: 560px) {
+  .Logo .Wrapper {
+    width: 440px;
+    height: 150px;
+  }
+
+  #text, #text-mask {
+    font-size: 80px;
+    transform: translate(0, 80px);
+  }
+}*/
+
+@media screen and (max-width: 850px) {
+  .Logo .Wrapper svg {
+    width: 80%;
+    transform: translateX(10%);
+  }
+}
+
+.svgtext, #text-mask {
+  display: inline;
+  text-align: center;
+  font-size: 9rem;
+  font-weight: 800;
+  height:100%;
+  width:100%
+}
+
+.loaded mask {
+  display: block;
 }

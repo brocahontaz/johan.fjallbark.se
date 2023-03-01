@@ -4,10 +4,11 @@
 }
 
 .Link {
-  margin-right: 40px;
+  margin-right: 0px;
 }
 
 .Link:last-child{
+  margin: 0;
 }
 
 .Link .LinkIcon {
@@ -63,20 +64,29 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .LinkLinkText {
+  .LinkText {
     display: none;
+  }
+  .ItemText {
+    font-size: 10px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 610px) {
   .Link {
-    margin-right: 20px;
+    margin-right: 0px;
   }
   .Link:hover .tooltiptext {
     visibility: visible;
   }
 
-  .LinkText {
+  .ItemText {
     display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Link {
+    padding: 5px;
   }
 }
