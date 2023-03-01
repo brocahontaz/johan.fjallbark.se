@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.632faceb.css",
-    "main.js": "/static/js/main.07bbe039.js",
-    "static/media/layered-peaks-3.png": "/static/media/layered-peaks-3.d83227ae7c1ef0afd853.png",
+    "main.css": "/static/css/main.7e5b77bb.css",
+    "main.js": "/static/js/main.ee7ed0a3.js",
     "index.html": "/index.html",
-    "main.632faceb.css.map": "/static/css/main.632faceb.css.map",
-    "main.07bbe039.js.map": "/static/js/main.07bbe039.js.map"
+    "main.7e5b77bb.css.map": "/static/css/main.7e5b77bb.css.map",
+    "main.ee7ed0a3.js.map": "/static/js/main.ee7ed0a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.632faceb.css",
-    "static/js/main.07bbe039.js"
+    "static/css/main.7e5b77bb.css",
+    "static/js/main.ee7ed0a3.js"
   ]
 }
