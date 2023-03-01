@@ -22,6 +22,12 @@ const Logo = () =>
 
           <g id="eff">
             <use xlinkHref="#text" fill="#a2a3a5"/>
+            <animate xlinkHref="#text" attributeType="XML"
+              attributeName="fill"
+              from="#ff69b4" to="#663399"
+              values="#ff69b4; #ffa500; #ff0000; #008000; #663399"
+              repeatCount="indefinite"
+              dur="60s" />
 
             <rect id="wave-1" className="water-fill" mask="url(#text-mask)" fill="url(#water)" x="-300" y="80" width="1200" height="60%" opacity="0.3">
               <animate attributeType="xml" attributeName="x" from="-300" to="0" repeatCount="indefinite" dur="2s"/>
@@ -37,7 +43,6 @@ const Logo = () =>
             </rect>
           </g>
         </defs>
-
 
         <use xlinkHref="#eff" opacity="0.9"/>
         

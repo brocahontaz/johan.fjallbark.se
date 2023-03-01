@@ -34,14 +34,32 @@
   to {background-position: 100% 60%;}
   
 }
-
+/*
 @keyframes color_change {
 	0% { fill: hotpink; }
   25% { fill: orange; }
   50% { fill: red; }
   75% { fill: green; }
   100% { fill: rebeccapurple; }
+}*/
+
+@keyframes color_change {
+	0% { fill: #ff69b4; }
+  25% { fill: #ffa500; }
+  50% { fill: #ff0000; }
+  75% { fill: #008000; }
+  100% { fill: #663399; }
 }
+/*
+@-webkit-keyframes color_change {
+	0% { -webkit-fill: #ff69b4; }
+  25% { -webkit-fill: #ffa500; }
+  50% { -webkit-fill: #ff0000; }
+  75% { -webkit-fill: #008000; }
+  100% { -webkit-fill: #663399; }
+}*/
+
+
 /*
 @media screen and (max-width: 840px) {
   .Logo .Wrapper {
