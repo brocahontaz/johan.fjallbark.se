@@ -57,10 +57,25 @@
   align-self: flex-end;
 }
 
+#text {
+  animation-name: color_change;
+	animation-duration: 60s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
 @keyframes test {
   from {background-position: 100% 80%;}
   to {background-position: 100% 60%;}
   
+}
+
+@keyframes color_change {
+	0% { fill: hotpink; }
+  25% { fill: orange; }
+  50% { fill: red; }
+  75% { fill: green; }
+  100% { fill: rebeccapurple; }
 }
 
 .test-1 {

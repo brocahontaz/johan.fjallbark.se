@@ -1,15 +1,44 @@
 import './LinkBar.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Link from './Link'
+
+const Links = [
+  {
+    name: 'Malmö',
+    icon: 'map-marker-alt',
+    iconType: 'fas'
+  },
+  {
+    name: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/johan-fj%C3%A4llbark-03ab40161/',
+    icon: 'linkedin',
+    iconType: 'fab'
+  },
+  {
+    name: 'Github',
+    url: 'https://github.com/brocahontaz',
+    icon: 'github',
+    iconType: 'fab'
+  },
+  {
+    name: 'johan@fjallbark.se',
+    url: 'mailto:johan@fjallbark.se',
+    icon: 'envelope',
+    iconType: 'fas'
+  },
+  {
+    name: 'Johan Fjällbark, 2023',
+    icon: 'copyright',
+    iconType: 'fas'
+  }
+]
 
 const LinkBar = () =>
   <div className='LinkBar'>
     <div className='Wrapper'>
       <ul>
-        <li><FontAwesomeIcon icon={['fas', 'map-marker-alt']} /> Malmö</li>
-        <li><FontAwesomeIcon icon={['fab', 'linkedin']} /> LinkedIn</li>
-        <li><FontAwesomeIcon icon={['fab', 'github']} /> Github</li>
-        <li><FontAwesomeIcon icon={['fas', 'envelope']} /> johan@fjallbark.se</li>
-        <li><FontAwesomeIcon icon={['fas', 'copyright']} /> Johan Fjällbark, 2023</li>
+        {Links.map(item =>(
+          <Link name={item.name} url={item.url} icon={item.icon} iconType={item.iconType} key={item.name}/>
+        ))}
       </ul>
     </div>
   </div>

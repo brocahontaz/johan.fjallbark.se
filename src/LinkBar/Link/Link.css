@@ -1,0 +1,82 @@
+.Link {
+  padding: 20px;
+  font-size: 15px;
+}
+
+.Link {
+  margin-right: 40px;
+}
+
+.Link:last-child{
+}
+
+.Link .LinkIcon {
+  color: var(--icon-light);
+  margin-right: 5px;
+}
+
+.Link:hover .LinkIcon.github {
+  color: #6e5494;
+}
+
+.Link:hover .LinkIcon.linkedin {
+  color: #0077b5;
+}
+
+.Link:hover .LinkIcon.map-marker-alt {
+  color: #ea4335;
+}
+
+.Link:hover .LinkIcon.envelope {
+  color: #fbbc05;
+}
+
+.Link:hover .LinkIcon.copyright {
+  color: var(--primary);
+}
+
+.ActiveLink {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 600; 
+}
+
+.NonActiveLink {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 400; 
+}
+
+.tooltiptext {
+  box-sizing: border-box;
+  visibility: hidden;
+  background-color: var(--primary);
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 170px;
+  left: 70px;
+  right: 70px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  .LinkLinkText {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Link {
+    margin-right: 20px;
+  }
+  .Link:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .LinkText {
+    display: none;
+  }
+}
