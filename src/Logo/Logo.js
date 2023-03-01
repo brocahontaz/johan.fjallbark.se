@@ -2,8 +2,9 @@ import './Logo.css';
 
 const Logo = () =>
   <div className='Logo'>
-    Hi!
-    I am
+    <div className="Greeting">
+      Hi! I am
+    </div>
     <div className='Wrapper'>
       <svg version="1.1" 
         viewBox="0 0 800 200" width="800" height="200"
@@ -51,8 +52,8 @@ const Logo = () =>
       </svg>
       
     </div>
-    <div class="container">
-      <p>Full-stack DevSecOps</p>
+    <div class="Title">
+      Full-stack DevSecOps
     </div>
   </div>
 

@@ -50,40 +50,6 @@
   75% { fill: #008000; }
   100% { fill: #663399; }
 }
-/*
-@-webkit-keyframes color_change {
-	0% { -webkit-fill: #ff69b4; }
-  25% { -webkit-fill: #ffa500; }
-  50% { -webkit-fill: #ff0000; }
-  75% { -webkit-fill: #008000; }
-  100% { -webkit-fill: #663399; }
-}*/
-
-
-/*
-@media screen and (max-width: 840px) {
-  .Logo .Wrapper {
-    width: 550px;
-    height: 150px;
-  }
-
-  #text, #text-mask {
-    font-size: 100px;
-    transform: translate(0, 100px);
-  }
-}
-
-@media screen and (max-width: 560px) {
-  .Logo .Wrapper {
-    width: 440px;
-    height: 150px;
-  }
-
-  #text, #text-mask {
-    font-size: 80px;
-    transform: translate(0, 80px);
-  }
-}*/
 
 @media screen and (max-width: 850px) {
   .Logo .Wrapper svg {
@@ -101,64 +67,11 @@
   width:100%;
 }
 
-.loaded mask {
-  display: block;
-}
-
-.test {
-  color: #333;
-  font-family: 'Open Sans';
-  font-size: 1rem;
-  font-weight: 100;
-  line-height: 1.5;
-  text-transform: uppercase;
-  white-space: nowrap;
-  overflow: hidden;
-  position: relative;
-
-}
-
-.test span {
-  font-size: 20px;
-
-}
-
-.message {
-  color: #333;
-  font-weight: 900;
-  overflow: hidden;
-  position: absolute;
-  padding-left: 0.5rem;
-
-  animation: openclose 10s ease-in-out infinite;
-}
-
-.container {
+.Logo .Title {
   color: #e5e5e5;
   font-size: 1rem;
-
-
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.animation {
-  height:50px;
-  overflow:hidden;
-  margin-left: 1rem;
-}
-
-.animation > div > div {
-  padding: 0.25rem 0.75rem;
-  height:2rem;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.first div {
-  background-color:#20a7d8;
 }
 
