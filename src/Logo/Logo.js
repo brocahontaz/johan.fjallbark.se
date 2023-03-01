@@ -2,6 +2,8 @@ import './Logo.css';
 
 const Logo = () =>
   <div className='Logo'>
+    Hi!
+    I am
     <div className='Wrapper'>
       <svg version="1.1" 
         viewBox="0 0 800 200" width="800" height="200"
@@ -47,6 +49,10 @@ const Logo = () =>
         <use xlinkHref="#eff" opacity="0.9"/>
         
       </svg>
+      
+    </div>
+    <div class="container">
+      <p>Full-stack DevSecOps</p>
     </div>
   </div>
 
