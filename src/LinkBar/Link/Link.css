@@ -7,7 +7,7 @@
   margin-right: 0px;
 }
 
-.Link:last-child{
+.Link:last-child {
   margin: 0;
 }
 
@@ -39,13 +39,13 @@
 .ActiveLink {
   color: var(--text-primary);
   text-decoration: none;
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 .NonActiveLink {
   color: var(--text-primary);
   text-decoration: none;
-  font-weight: 400; 
+  font-weight: 400;
 }
 
 .tooltiptext {

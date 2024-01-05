@@ -1,9 +1,10 @@
-import './Nav.css';
+import "./Nav.css";
 
-const Nav = () =>
-  <div className='Nav'>
-    <div className='Wrapper'>
-      ~/<input type='text' />
+const Nav = () => (
+  <div className="Nav">
+    <div className="Wrapper">
+      ~/
+      <input type="text" />
     </div>
     <div className="Buttons">
       <div>ALL ABOUT</div>
@@ -12,5 +13,6 @@ const Nav = () =>
       <div className="tone">3</div>
     </div>
   </div>
+);
 
 export default Nav;
