@@ -1,3 +1,3 @@
-import LinkBar from './LinkBar';
+import LinkBar from "./LinkBar";
 
 export default LinkBar;

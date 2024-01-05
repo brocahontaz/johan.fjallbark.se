@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 
 .Logo .Wrapper {
@@ -24,15 +24,18 @@
 
 #text {
   animation-name: color_change;
-	animation-duration: 60s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 @keyframes test {
-  from {background-position: 100% 80%;}
-  to {background-position: 100% 60%;}
-  
+  from {
+    background-position: 100% 80%;
+  }
+  to {
+    background-position: 100% 60%;
+  }
 }
 /*
 @keyframes color_change {
@@ -44,11 +47,21 @@
 }*/
 
 @keyframes color_change {
-	0% { fill: #ff69b4; }
-  25% { fill: #ffa500; }
-  50% { fill: #ff0000; }
-  75% { fill: #008000; }
-  100% { fill: #663399; }
+  0% {
+    fill: #ff69b4;
+  }
+  25% {
+    fill: #ffa500;
+  }
+  50% {
+    fill: #ff0000;
+  }
+  75% {
+    fill: #008000;
+  }
+  100% {
+    fill: #663399;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -58,13 +71,14 @@
   }
 }
 
-.svgtext, #text-mask {
+.svgtext,
+#text-mask {
   display: inline;
   text-align: center;
   font-size: 9rem;
   font-weight: 800;
-  height:100%;
-  width:100%;
+  height: 100%;
+  width: 100%;
 }
 
 .Logo .Title {
@@ -74,4 +88,3 @@
   align-items: center;
   justify-content: center;
 }
-
