@@ -15,6 +15,8 @@ import {
   faAddressCard,
   faHome,
   faProjectDiagram,
+  faUser,
+  faScroll,
 } from "@fortawesome/free-solid-svg-icons";
 library.add(
   faLinkedin,
@@ -29,5 +31,7 @@ library.add(
   faLaptopCode,
   faAddressCard,
   faHome,
-  faProjectDiagram
+  faProjectDiagram,
+  faUser,
+  faScroll
 );

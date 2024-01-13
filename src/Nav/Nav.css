@@ -2,18 +2,30 @@
   position: absolute;
   top: 0;
   width: 100%;
-  display: none;
-  justify-content: space-between;
-  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: "Open Sans";
 }
 
 .Nav .Wrapper {
-  width: 50%;
+  width: 60%;
   padding: 10px;
   box-sizing: border-box;
   font-size: 14px;
   font-weight: 500;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.Nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .Nav .Wrapper input {
@@ -45,4 +57,10 @@
 
 .Buttons .tone {
   background-color: #c41a6f;
+}
+
+@media screen and (max-width: 1000px) {
+  .Nav .Wrapper {
+    width: 80%;
+  }
 }

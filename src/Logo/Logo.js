@@ -128,7 +128,7 @@ const Logo = () => (
         <use xlinkHref="#eff" opacity="0.9" />
       </svg>
     </div>
-    <div class="Title">Full-stack DevSecOps</div>
+    <div className="Title">Full-stack DevSecOps</div>
   </div>
 );
 

@@ -1,0 +1,92 @@
+.Nav .Link {
+  padding: 20px;
+  font-size: 15px;
+}
+
+.Nav .Link {
+  margin-right: 0px;
+}
+
+.Nav .Link:last-child {
+  margin: 0;
+}
+
+.Nav .Link .LinkIcon {
+  color: var(--icon-light);
+  margin-right: 15px;
+}
+
+.Nav .Link:hover .LinkIcon.home {
+  color: #6e5494;
+}
+
+.Nav .Link:hover .LinkIcon.linkedin {
+  color: #0077b5;
+}
+
+.Nav .Link:hover .LinkIcon.map-marker-alt {
+  color: #ea4335;
+}
+
+.Nav .Link:hover .LinkIcon.envelope {
+  color: #fbbc05;
+}
+
+.Nav .Link:hover .LinkIcon.copyright {
+  color: var(--primary);
+}
+
+.ActiveLink {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.NonActiveLink {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.tooltiptext {
+  box-sizing: border-box;
+  visibility: hidden;
+  background-color: var(--primary);
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 170px;
+  left: 70px;
+  right: 70px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  .LinkText {
+    display: none;
+  }
+  .ItemText {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .Nav .Link {
+    margin-right: 0px;
+  }
+  .Link:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .ItemText {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Nav .Link {
+    padding: 5px;
+  }
+}
